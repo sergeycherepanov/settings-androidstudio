@@ -1,4 +1,8 @@
 <templateSet group="Flutter">
+  <template name="column" value="Column(&#10;  children: &lt;Widget&gt;[$goto$],&#10;)," description="Create Column Widget" toReformat="true" toShortenFQNames="true">
+    <variable name="goto" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
   <template name="aspectRatio" value="AspectRatio(&#10;aspectRatio: $aspectRatio$,&#10;child: $child$&#10;)," description="New AspectRatio Widget" toReformat="true" toShortenFQNames="true">
     <variable name="aspectRatio" expression="$aspectRatio$" defaultValue="" alwaysStopAt="true" />
     <variable name="child" expression="$child$" defaultValue="" alwaysStopAt="true" />
